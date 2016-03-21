@@ -1,15 +1,52 @@
 .left,.center,.right{
-    background-color: hotpink;
+    border: solid black 1px;
+    background-color: white;
 }
 .container{
-    background-color: cornflowerblue;
+    position: relative;
+    padding: 20px;
+}
+.container{
+    background-color: #eee;
+    min-width: 600px;
+    border: solid black 1px;
 }
 .left{
+    position: absolute;
+    display: block;
     float: left;
+    left: 20px;
+    top: 20px;
+    padding: 20px;
+    width: 200px;
 }
 .right{
-    float:right;
+    width: 120px;
+    position: absolute;
+    display: block;
+    right: 20px;
+    top: 20px;
+    float: right;
 }
 .center{
-    margin:0 142px 0 222px;
+    margin-left: 240px;
+    margin-right: 160px;
+    padding: 20px;
+    width: auto;
+}
+.left p{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 20px;
+    top: 0;
+}
+.right img{
+    margin:20px;
+    border: solid black 1px;
+}
+div{
+    box-sizing: border-box;
+}
+*{
+    font-family: "Microsoft YaHei";
 }

@@ -1,0 +1,28 @@
+.main{
+    width: 400px;
+    height: 200px;
+    background-color: #ccc;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.leftcorner{
+    background-color: #fc0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: -50px;
+    top: -50px;
+}
+.rightcorner{
+    background-color: #fc0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    right: -350px;
+    bottom: -50px;
+}
