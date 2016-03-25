@@ -3,26 +3,24 @@
     background-color: white;
 }
 .container{
-    position: relative;
     padding: 20px;
     background-color: #eee;
     min-width: 600px;
     border: solid black 1px;
+    overflow: hidden;
+
 }
 .left{
-    position: absolute;
-    display: block;
-    left: 20px;
-    top: 20px;
-    padding: 20px;
+    float: left;
     width: 200px;
+    height: 120px;
+    display: block;
+    padding: 20px;
 }
 .right{
+    float: right;
     width: 120px;
-    position: absolute;
     display: block;
-    right: 20px;
-    top: 20px;
 }
 .center{
     margin-left: 240px;
@@ -31,10 +29,6 @@
     width: auto;
 }
 .left p{
-    position: absolute;
-    margin-left: 90px;
-    margin-top: 20px;
-    top: 0;
 }
 .right img{
     margin:20px;
